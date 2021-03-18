@@ -1,0 +1,109 @@
+:root {
+  /* text color */
+  --Very-dark-desaturated-blue: #1d1e35;
+  --Soft-red: #f47c57;
+  --Very-dark-grayish-blue: #4a4b5e;
+  --Dark-grayish-blue: #787887;
+  /* bg-gradient */
+  --Soft-violet: #af67e9;
+  --Soft-blue: #6565e7;
+  /* dividers */
+
+  /* font size */
+  font-size: 12px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
+
+button{
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1rem;
+  margin: 1.5em 0;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+main{
+  background: linear-gradient(#af67e9, #6565e7) no-repeat;
+  padding: 12em 2em;
+  overflow: hidden;
+}
+
+.container {
+  background-color: white;
+  border-radius: 2rem;
+  position: relative;
+  max-width: 76.8rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* header img */
+.image-mobile{
+  width: 100%;
+  max-width: 35rem;
+}
+
+#illustration-mobile{
+  position: absolute;
+  top: -9rem;
+  left: 50%;
+  transform: translateX(-55%);
+}
+
+#bg-pattern-mobile{
+  position: absolute;
+  left: 52%;
+  transform: translateX(-55%);
+}
+
+.image-desktop{
+  display: none;
+  width: 100%;
+  max-width: 35rem;
+}
+
+/* card text */
+.card-text{
+  margin-top: 5.5em;
+  margin-bottom: 5.5em;
+  padding: 11em 2em 3.5em;
+}
+
+/* question */
+.question{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.question p{
+  padding-bottom: 1.5em;
+  cursor: pointer;
+  display: none;
+}
+
+button.open {
+  font-weight: 700;
+}
+
+.question > img{
+  position: absolute;
+  top: 1.8em;
+  right: 0;
+  cursor: pointer;
+}

@@ -1,0 +1,50 @@
+@media screen and (min-width: 56em) {
+  h1{
+    text-align: left;
+  }
+
+  main{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+  }
+
+  /* image */
+  .image-mobile{
+    display: none;
+  }
+
+  .image-desktop{
+    display: flex;
+    padding-top: 5.5em;
+    padding-bottom: 5.5em;
+    background: url(/images/bg-pattern-desktop.svg) no-repeat;
+    background-position: 103% 65%;
+    overflow: hidden;
+  }
+
+  #illustration-desktop{   
+    transform: translateX(-15%);
+  }
+
+  #box-desktop{
+    position: absolute;
+    transform: translateX(-50%) translateY(70%);
+  }
+
+  /*card*/
+  .card-text{
+    padding: 0 7em;
+    width: 100%;
+  }
+
+}

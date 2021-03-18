@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <style>
+    footer {
+      background-color: #ce9797;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 48px;
+    }
+
+    .attribution {
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="image-mobile">
+        <img id="illustration-mobile" src="/images/illustration-woman-online-mobile.svg" alt="illustration-woman">
+        <img id="bg-pattern-mobile" src="/images/bg-pattern-mobile.svg" alt="bg-pattern">
+      </div>
+      <div class="image-desktop">
+        <img id="illustration-desktop" src="/images/illustration-woman-online-desktop.svg" alt="illustration-woman">
+        <img id="box-desktop" src="/images/illustration-box-desktop.svg" alt="box-desktop">
+      </div>
+
+      <div class="card-text">
+        <h1>FAQ</h1>
+
+        <div class="question">
+          <button class="accordion-question">How many team members can I invite?</button>
+          <p>You can invite up to 2 additional users on the Free plan. There is no limit on
+            team members for the Premium plan.</p>
+          <img class="arrow" src="/images/icon-arrow-down.svg" alt="arrow-down">
+        </div>
+
+        <div class="question">
+          <button class="accordion-question">What is the maximum file upload size?</button>
+          <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+          <img class="arrow" src="/images/icon-arrow-down.svg" alt="arrow-down">
+        </div>
+
+        <div class="question">
+          <button class="accordion-question">How do I reset my password?</button>
+          <p> Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.</p>
+          <img class="arrow" src="/images/icon-arrow-down.svg" alt="arrow-down">
+        </div>
+
+        <div class="question">
+          <button class="accordion-question">Can I cancel my subscription?</button>
+          <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+          <img class="arrow" src="/images/icon-arrow-down.svg" alt="arrow-down">
+        </div>
+
+        <div class="question">
+          <button class="accordion-question">Do you provide additional support?</button>
+          <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+          <img class="arrow" src="/images/icon-arrow-down.svg" alt="arrow-down">
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Jace</a>.
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
